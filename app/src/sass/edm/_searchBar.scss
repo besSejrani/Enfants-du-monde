@@ -1,0 +1,95 @@
+#showSearch {
+  position: absolute;
+  right: 0px;
+
+  width: 60px;
+  height: auto;
+
+  padding: 5px;
+
+  cursor: pointer;
+}
+
+#searchBar {
+  margin: 0px;
+  display: none;
+  align-self: center;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+
+  height: 40px;
+  border: none;
+
+  line-height: 40px;
+
+  input {
+    width: 100%;
+  }
+}
+
+#searchText {
+  padding-left: 10px;
+  border: none;
+}
+
+#searchButton {
+  position: absolute;
+  right: 0px;
+
+  height: 100%;
+  width: 100px;
+
+  text-align: center;
+
+  vertical-align: middle;
+  background-color: #bcdc53;
+  cursor: pointer;
+}
+
+#onDynamicSearch {
+  flex-flow: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  width: 100%;
+  max-height: 400px;
+  top: 40px;
+
+  overflow-y: auto;
+
+  #separator {
+    padding: 1px;
+    display: block;
+    margin: none;
+    width: 100%;
+    background-color: #bcdc53;
+  }
+
+  div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 10px;
+    flex-shrink: 0;
+
+    img {
+      width: 20%;
+      height: auto;
+      border-radius: 100%;
+      margin-right: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #searchBar {
+    margin: 10px;
+    width: 400px;
+  }
+  #onDynamicSearch {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+  }
+}

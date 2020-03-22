@@ -1,0 +1,74 @@
+@import "./app/typography";
+
+// Config
+@import "./core/variables";
+@import "./core/mixins";
+
+// Layout
+@import "./layout/header";
+
+// Components
+@import "./components/accordion";
+@import "./components/sidenav";
+@import "./components/tab";
+
+// EDM
+@import "./edm/helpStyle";
+@import "./edm/searchBar";
+@import "./edm/searchResults";
+@import "./edm/sideBarStyle";
+@import "./edm/style";
+
+.container {
+  width: 80%;
+
+  @include respond(phone) {
+    width: 90%;
+  }
+}
+
+/*
+|-------------------------------------------------------------------------------------
+| HTML rem :
+| 
+| 1 rem by default is the browser font-size, 16px = 1rem
+| It's not ideal, so for getting 1 rem = 10px, we divide 10px/16px = 62.5%
+| 62.5% is now applied for the html font and all the children inherit from it.
+| 
+| We do this for responsive text, if the user increase the zoom level or decrease it,
+| the value gonna be adjusted
+| 
+| Media Queries :
+| 
+| Always put the larger media query before the smaller one or the styles are gonna be
+| applied to the same range, and the last media query will be applied
+|
+|-------------------------------------------------------------------------------------
+*/
+
+html {
+  font-size: 62.5%; //1rem = 10px, 10/16px = 62.5%
+
+  @include respond(tablet-landscape) {
+    /*width < 1200?*/
+    font-size: 56.25%;
+    /*//1rem = 9px, 9/16 = 56.25%*/
+  }
+
+  @include respond(tablet-portrait) {
+    /*width < 900 ?*/
+    font-size: 50%;
+    /*1rem = 8px, 8/16 = 50%*/
+  }
+
+  @include respond(phone) {
+    /*width < 600 ?*/
+    font-size: 50%;
+    /*1rem = 8px, 8/16 = 50%*/
+  }
+
+  @include respond(large-screen) {
+    font-size: 75%;
+    /*1rem = 12px, 12/16 = 75%*/
+  }
+}

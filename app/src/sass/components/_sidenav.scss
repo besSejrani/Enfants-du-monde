@@ -1,0 +1,15 @@
+@import "../core/variables";
+
+#multiLang {
+  width: 100%;
+  padding: 0.6rem 4.2rem 0.6rem 2.2rem;
+}
+
+// Specify the margin around the select for multiple languages
+.select-wrapper {
+  margin: 2.9rem;
+}
+
+.dropdown-content li > span {
+  color: $primaryColor;
+}

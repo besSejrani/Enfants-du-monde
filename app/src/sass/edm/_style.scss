@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.canvas {
+  z-index: -9999;
+}
+
+.GUI {
+  text-align: center;
+  color: black;
+  z-index: 2;
+}
+
+.closeButton {
+  cursor: pointer;
+  color: black;
+
+  font-weight: bold;
+  font-size: 1.7em;
+
+  position: absolute;
+  top: -15px;
+  right: 20px;
+}
+
+#loading {
+  position: absolute;
+  z-index: 1;
+  color: white;
+
+  left: 50%;
+  top: 2%;
+
+  margin: -0px 0 0 -100px;
+
+  font-size: 1.7em;
+}

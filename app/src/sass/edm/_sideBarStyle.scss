@@ -1,0 +1,130 @@
+#sideBar {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  border-left: 16px solid #bcdc53;
+
+  max-width: 600px;
+  max-height: 800px;
+}
+
+#onClickDetails {
+  display: flex;
+  flex-flow: column;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+
+  img {
+    border-radius: 20px;
+    min-width: auto;
+    min-height: 150px;
+
+    width: 250px;
+    height: auto;
+  }
+
+  #separator {
+    height: 4px;
+    width: 90%;
+
+    background-color: #bcdc53;
+  }
+}
+
+#closeSideBar {
+  cursor: pointer;
+  color: #bcdc53;
+
+  font-weight: bold;
+  font-size: 1.7em;
+
+  position: absolute;
+  top: -25px;
+  right: 15px;
+}
+
+#description {
+  flex-direction: column;
+}
+
+//==============================================================================================================================
+
+@media screen and (min-width: 480px) {
+  #sideBar {
+    top: 10%;
+    min-height: 350px;
+    width: 400px;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #onClickDetails {
+    flex-flow: column;
+
+    img {
+      padding: 10px;
+      height: 400px;
+      width: auto;
+    }
+
+    #separator {
+      width: 80%;
+      height: 4px;
+    }
+  }
+}
+
+/* Mise en page pour les grands écrans */
+@media screen and (min-width: 1280px) {
+  #sideBar {
+    top: 10%;
+    width: 500px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  #onClickDetails img {
+    height: auto;
+
+    min-width: 100px;
+
+    max-width: 400px;
+    max-height: 500px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-height: 400px) {
+  #sideBar {
+    top: 0%;
+    min-height: 250px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  #onClickDetails {
+    flex-flow: row;
+
+    img {
+      padding: 10px;
+      height: 300px;
+      width: auto;
+    }
+
+    #separator {
+      width: 4px;
+      height: 80%;
+    }
+  }
+}
