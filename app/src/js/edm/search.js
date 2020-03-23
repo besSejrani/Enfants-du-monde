@@ -1,5 +1,5 @@
 import * as Three from "three/build/three";
-import * as Tween from "tween/tween";
+import * as Tween from "tween";
 
 //==============================================================================================================================
 

@@ -37,11 +37,21 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+            "options": {
+              "mainter": "bes",
+              "homepage": "bes.com"
+            }
+          }
         },
         {
           "name": "@electron-forge/maker-rpm",
-          "config": {}
+          "config": {
+            "options": {
+              "mainter": "bes",
+              "homepage": "bes.com"
+            }
+          }
         }
       ]
     }
