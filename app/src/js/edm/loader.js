@@ -3,7 +3,7 @@ import * as THREE from "three";
 //https://stackoverflow.com/questions/12732590/how-map-2d-grid-points-x-y-onto-sphere-as-3d-points-x-y-z
 
 import images from "../../data/images.json";
-import Earth from "../../assets/images/earth.jpg";
+import Earth from "../../assets/images/earth.webp";
 
 //==============================================================================================================================
 

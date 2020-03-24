@@ -5,7 +5,7 @@ import * as Render from "./render";
 import * as Config from "./config";
 
 import { loadData } from "./loader";
-import milkyWay from "../../assets/images/MilkyWay.jpg";
+import milkyWay from "../../assets/images/milkyWay.webp";
 
 //============================================================================================================================================================================================================================================================
 
