@@ -138,7 +138,7 @@ export const loadData = (scene, canvContainer, controls) => {
         index++;
 
         // When last image loaded, show canvas
-        let file = require(`../../assets/64-64/${image.IDImage}.png`);
+        let file = require(`../../assets/64-64/${image.IDImage}.webp`);
 
         let texture = textureLoader.load(file, () => {
           imageLoaded++;

@@ -25,12 +25,12 @@ Config.renderer.setSize(Config.rendererWidth, Config.rendererHeight);
 
 // SkyBox
 const geometry = new THREE.SphereGeometry(10000, 60, 40);
-const loader = new THREE.TextureLoader();
+let TextureLoader = new THREE.TextureLoader();
 
 const uniforms = {
   texture: {
     type: "t",
-    value: loader.load(milkyWay)
+    value: TextureLoader.load(milkyWay)
   }
 };
 

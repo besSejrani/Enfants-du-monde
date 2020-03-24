@@ -14,7 +14,7 @@ const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
-    height: 600,
+    height: 800,
     webPreferences: {
       webSecurity: false
     }
@@ -23,7 +23,7 @@ const createWindow = () => {
   // and load the index.html of the app.
   // mainWindow.loadURL(isDev ? "http://localhost:8089" : `file://${path.join(__dirname, "../../app/build/index.html")}`);
 
-  mainWindow.loadFile(path.join(__dirname, "../../app/build/index.html"));
+  mainWindow.loadFile(path.join(__dirname, "../app/index.html"));
 };
 
 // This method will be called when Electron has finished

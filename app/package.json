@@ -4,8 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "convert-webp64": "cd ./src/assets/64-64 && find ./ -type f -name '*.png' -exec sh -c 'cwebp -q 75 $1 -o \"${1%.png}.webp\"' _ {} \\;",
+    "convert-webp128": "cd ./src/assets/128-128 && find ./ -type f -name '*.png' -exec sh -c 'cwebp -q 75 $1 -o \"${1%.png}.webp\"' _ {} \\;",
+    "convert-webp400": "cd ./src/assets/400-500 && find ./ -type f -name '*.jpg' -exec sh -c 'cwebp -q 75 $1 -o \"${1%.jpg}.webp\"' _ {} \\;",
     "start": "webpack-dev-server --config webpack.dev.js --open ",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "electron": "webpack --config webpack.electron.js"
   },
   "dependencies": {
     "materialize-css": "^1.0.0",
