@@ -5,8 +5,11 @@
   "license": "MIT",
   "scripts": {
     "convert-webp64": "cd ./src/assets/64-64 && find ./ -type f -name '*.png' -exec sh -c 'cwebp -q 75 $1 -o \"${1%.png}.webp\"' _ {} \\;",
+    "delete-png64": "cd ./src/assets/64-64 &&find . -type f -iname \\*.png -delete",
     "convert-webp128": "cd ./src/assets/128-128 && find ./ -type f -name '*.png' -exec sh -c 'cwebp -q 75 $1 -o \"${1%.png}.webp\"' _ {} \\;",
+    "delete-png128": "cd ./src/assets/128-128 &&find . -type f -iname \\*.png -delete",
     "convert-webp400": "cd ./src/assets/400-500 && find ./ -type f -name '*.jpg' -exec sh -c 'cwebp -q 75 $1 -o \"${1%.jpg}.webp\"' _ {} \\;",
+    "delete-png400": "cd ./src/assets/400-500 && find . -type f -iname \\*.jpg -delete",
     "start": "webpack-dev-server --config webpack.dev.js --open ",
     "build": "webpack --config webpack.prod.js",
     "electron": "webpack --config webpack.electron.js"
