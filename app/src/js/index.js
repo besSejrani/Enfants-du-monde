@@ -18,8 +18,9 @@ import "./utils/materialize";
 // EDM
 import "./edm/globescope";
 import "./edm/childDetails";
-import "./edm/loader";
+import "./edm/loader/loader";
+import "./edm/loader/loadImages.worker";
 import "./edm/search";
 
 // PWA
-//import "../pwa/app";
+import "./pwa/app";

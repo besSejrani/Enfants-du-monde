@@ -38,12 +38,15 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.ext$/,
+        use: ["cache-loader", "babel-loader"],
+        include: path.resolve("src")
+      },
+
+      {
         test: /\.(html)$/,
         use: {
-          loader: "html-loader-srcset",
-          options: {
-            attrs: [":data-lazy", ":srcset", ":source", ":src", ":href"]
-          }
+          loader: "html-loader"
         }
       },
 
@@ -58,8 +61,14 @@ module.exports = {
       },
 
       {
+        test: /\.worker\.js$/,
+        use: { loader: "worker-loader" }
+      },
+
+      {
         test: /\.js$/,
         exclude: /node_modules/,
+        include: path.resolve(__dirname, "src"),
         use: {
           loader: "babel-loader",
           options: {

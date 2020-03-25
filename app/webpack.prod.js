@@ -19,6 +19,8 @@ const optimizeCss = require("optimize-css-assets-webpack-plugin");
 const terser = require("terser-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
+const WorkboxPlugin = require("workbox-webpack-plugin");
+
 module.exports = {
   mode: "production",
   entry: {
@@ -35,15 +37,22 @@ module.exports = {
     minimizer: [new terser(), new optimizeCss()]
   },
 
+  // new webpack.optimize.AggressiveMergingPlugin({
+  //   min
+  // }),
+
   module: {
     rules: [
       {
+        test: /\.ext$/,
+        use: ["cache-loader", "babel-loader"],
+        include: path.resolve("src")
+      },
+
+      {
         test: /\.(html)$/,
         use: {
-          loader: "html-loader-srcset",
-          options: {
-            attrs: [":data-lazy", ":srcset", ":source", ":src", ":href"]
-          }
+          loader: "html-loader"
         }
       },
 
@@ -58,8 +67,14 @@ module.exports = {
       },
 
       {
+        test: /\.worker\.js$/,
+        use: { loader: "worker-loader" }
+      },
+
+      {
         test: /\.js$/,
         exclude: /node_modules/,
+        include: path.resolve(__dirname, "src"),
         use: {
           loader: "babel-loader",
           options: {
@@ -104,6 +119,7 @@ module.exports = {
         postcss: [autoprefixer()]
       }
     }),
+
     /* new AppManifestWebpackPlugin({
       // Your source logo
       logo: "./src/images/icons/icon-512x512.png",
@@ -144,12 +160,17 @@ module.exports = {
       filename: "[name].[contenthash].css"
     }),
 
-    // Create as many pages you need
+    // Create as many pages as you need
     new htmlWebpackPlugin({
       title: "index",
       filename: "index.html",
       template: "./src/pages/index.html",
       chunks: ["index"]
+    }),
+
+    new WorkboxPlugin.InjectManifest({
+      // Path to service worker file
+      swSrc: "./sw.js"
     })
   ]
 };

@@ -4,8 +4,22 @@ import { fragmentShader, vertexShader } from "./webglShaders";
 import * as Render from "./render";
 import * as Config from "./config";
 
-import { loadData } from "./loader";
-import milkyWay from "../../assets/images/milkyWay.webp";
+import { loadData } from "./loader/loader";
+// import milkyWay from "../../assets/images/milkyWay.webp";
+
+//============================================================================================================================================================================================================================================================
+
+// // 1
+// export let scene = new THREE.Scene();
+// export let rendererWidth = window.innerWidth;
+// export let rendererHeight = window.innerHeight;
+
+// // 2
+// export let camera = new THREE.PerspectiveCamera(75, rendererWidth / rendererHeight, 0.1, 50000);
+// // 3
+// export let renderer = new THREE.WebGLRenderer();
+// // 4
+// export let controls = new OrbitControls(camera, renderer.domElement);
 
 //============================================================================================================================================================================================================================================================
 
@@ -30,7 +44,7 @@ let TextureLoader = new THREE.TextureLoader();
 const uniforms = {
   texture: {
     type: "t",
-    value: TextureLoader.load(milkyWay)
+    value: TextureLoader.load(require("../../assets/images/milkyWay.webp"))
   }
 };
 

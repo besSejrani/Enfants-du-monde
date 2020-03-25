@@ -8,6 +8,9 @@ if ("serviceWorker" in navigator) {
 }
 
 const button = document.getElementById("fab");
+
+//==============================================================================================================================
+
 /**
    |--------------------------------------------------
    | Added class hide to the button, instead of using display:'none',
@@ -16,7 +19,7 @@ const button = document.getElementById("fab");
    */
 let defferedPrompt;
 
-window.addEventListener("beforeinstallprompt", (event) => {
+window.addEventListener("beforeinstallprompt", event => {
   event.preventDefault();
   defferedPrompt = event;
   button.classList.remove("hide");
@@ -27,7 +30,7 @@ button.addEventListener("click", () => {
   if (defferedPrompt) {
     defferedPrompt.prompt();
 
-    defferedPrompt.userChoice.then((choiceResult) => {
+    defferedPrompt.userChoice.then(choiceResult => {
       console.log(choiceResult.outcome);
 
       if (choiceResult.outcome === "dismissed") {
@@ -39,6 +42,8 @@ button.addEventListener("click", () => {
     });
   }
 });
+
+//==============================================================================================================================
 
 /**
  |--------------------------------------------------
@@ -81,71 +86,8 @@ displayNotification = () => {
         }
       ]
     };
-    navigator.serviceWorker.ready.then((reg) => {
+    navigator.serviceWorker.ready.then(reg => {
       reg.showNotification("Successfully subscribed", options);
     });
   }
 };
-
-//Push Manager
-configurePushSub = () => {
-  let reg;
-  navigator.serviceWorker.ready
-    .then((swreg) => {
-      reg = swreg;
-      return swreg.pushManager.getSubscription();
-    })
-    .then((sub) => {
-      if (sub === null) {
-        //Create new subscription
-
-        const vapidPublicKey =
-          "BJ9o0wFz-VU961c6i1vUf6dtiXFIrZaNFONGImvG19E8lqvdkepDdSqUmJ2_yfPY5P-wTYyXzwM20x1hsdVr2Hk";
-
-        const convertedVapidKey = urlBase64ToUint8Array(vapidPublicKey);
-        return reg.pushManager.subscribe({
-          userVisibleOnly: true,
-          applicationServerKey: convertedVapidKey
-        });
-      } else {
-        //We have a subscription
-      }
-    })
-    .then((newSub) => {
-      return fetch("https://cambes-911a0.firebaseio.com/subscriptions.json", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
-        body: JSON.stringify(newSub)
-      });
-    })
-    .then((res) => {
-      if (res.ok) {
-        displayNotification();
-      }
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-};
-
-notificationPermission = () => {
-  Notification.requestPermission((result) => {
-    console.log("user choice", result);
-    if (result !== "granted") {
-      console.log("no notification permission granted");
-    } else {
-      /* displayNotification(); */
-      configurePushSub();
-      permission.classList.remove("blue");
-      permission.classList.add("grey");
-    }
-  });
-};
-
-if ("Notification" in window && "serviceWorker" in navigator) {
-  permission.style.display = "block";
-  permission.addEventListener("click", notificationPermission);
-}

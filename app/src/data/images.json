@@ -3527,30 +3527,7 @@
     "Provenance": "",
     "ImageOK": "VRAI"
   },
-  {
-    "IDPlace": "1",
-    "IDImage": "0-4-7",
-    "mer": "0",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2",
-    "IDImage": "0-4-8",
-    "mer": "0",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
+
   {
     "IDPlace": "318",
     "IDImage": "0-40-10",
@@ -4822,30 +4799,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "415",
-    "IDImage": "0-57-7",
-    "mer": "0",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "416",
-    "IDImage": "0-57-8",
-    "mer": "0",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "5",
@@ -8520,30 +8473,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "417",
-    "IDImage": "1-4-7",
-    "mer": "1",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "418",
-    "IDImage": "1-4-8",
-    "mer": "1",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "734",
     "IDImage": "1-40-10",
     "mer": "1",
@@ -9814,30 +9743,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "831",
-    "IDImage": "1-57-7",
-    "mer": "1",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "832",
-    "IDImage": "1-57-8",
-    "mer": "1",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "421",
@@ -13511,30 +13416,7 @@
     "Provenance": "",
     "ImageOK": "VRAI"
   },
-  {
-    "IDPlace": "4161",
-    "IDImage": "10-4-7",
-    "mer": "10",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "4162",
-    "IDImage": "10-4-8",
-    "mer": "10",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
+
   {
     "IDPlace": "4478",
     "IDImage": "10-40-10",
@@ -14807,30 +14689,7 @@
     "Provenance": "Attribution4HDupasquier.xlsx",
     "ImageOK": "VRAI"
   },
-  {
-    "IDPlace": "4575",
-    "IDImage": "10-57-7",
-    "mer": "10",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "4576",
-    "IDImage": "10-57-8",
-    "mer": "10",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
+
   {
     "IDPlace": "4165",
     "IDImage": "10-6-7",
@@ -18504,30 +18363,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "4577",
-    "IDImage": "11-4-7",
-    "mer": "11",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "4578",
-    "IDImage": "11-4-8",
-    "mer": "11",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "4894",
     "IDImage": "11-40-10",
     "mer": "11",
@@ -19798,30 +19633,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "4991",
-    "IDImage": "11-57-7",
-    "mer": "11",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "4992",
-    "IDImage": "11-57-8",
-    "mer": "11",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "4581",
@@ -23496,30 +23307,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "833",
-    "IDImage": "2-4-7",
-    "mer": "2",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "834",
-    "IDImage": "2-4-8",
-    "mer": "2",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "1150",
     "IDImage": "2-40-10",
     "mer": "2",
@@ -24790,30 +24577,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "1247",
-    "IDImage": "2-57-7",
-    "mer": "2",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "1248",
-    "IDImage": "2-57-8",
-    "mer": "2",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "837",
@@ -28488,30 +28251,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "1249",
-    "IDImage": "3-4-7",
-    "mer": "3",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "1250",
-    "IDImage": "3-4-8",
-    "mer": "3",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "1566",
     "IDImage": "3-40-10",
     "mer": "3",
@@ -29782,30 +29521,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "1663",
-    "IDImage": "3-57-7",
-    "mer": "3",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "1664",
-    "IDImage": "3-57-8",
-    "mer": "3",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "1253",
@@ -33480,30 +33195,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "1665",
-    "IDImage": "4-4-7",
-    "mer": "4",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "1666",
-    "IDImage": "4-4-8",
-    "mer": "4",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "1982",
     "IDImage": "4-40-10",
     "mer": "4",
@@ -34774,30 +34465,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "2079",
-    "IDImage": "4-57-7",
-    "mer": "4",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2080",
-    "IDImage": "4-57-8",
-    "mer": "4",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "1669",
@@ -38472,30 +38139,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "2081",
-    "IDImage": "5-4-7",
-    "mer": "5",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2082",
-    "IDImage": "5-4-8",
-    "mer": "5",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "2398",
     "IDImage": "5-40-10",
     "mer": "5",
@@ -39766,30 +39409,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "2495",
-    "IDImage": "5-57-7",
-    "mer": "5",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2496",
-    "IDImage": "5-57-8",
-    "mer": "5",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "2085",
@@ -43464,30 +43083,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "2497",
-    "IDImage": "6-4-7",
-    "mer": "6",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2498",
-    "IDImage": "6-4-8",
-    "mer": "6",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "2814",
     "IDImage": "6-40-10",
     "mer": "6",
@@ -44758,30 +44353,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "2911",
-    "IDImage": "6-57-7",
-    "mer": "6",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2912",
-    "IDImage": "6-57-8",
-    "mer": "6",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "2501",
@@ -48456,30 +48027,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "2913",
-    "IDImage": "7-4-7",
-    "mer": "7",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "2914",
-    "IDImage": "7-4-8",
-    "mer": "7",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "3230",
     "IDImage": "7-40-10",
     "mer": "7",
@@ -49750,30 +49297,6 @@
     "Slogan": "Nous prot\u00e9geons tous les handicap\u00e9s",
     "Provenance": "Attribution4HDupasquier.xlsx",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "3327",
-    "IDImage": "7-57-7",
-    "mer": "7",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "3328",
-    "IDImage": "7-57-8",
-    "mer": "7",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "2917",
@@ -53448,30 +52971,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "3329",
-    "IDImage": "8-4-7",
-    "mer": "8",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "3330",
-    "IDImage": "8-4-8",
-    "mer": "8",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "3646",
     "IDImage": "8-40-10",
     "mer": "8",
@@ -54742,30 +54241,6 @@
     "Slogan": "",
     "Provenance": "",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "3743",
-    "IDImage": "8-57-7",
-    "mer": "8",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "3744",
-    "IDImage": "8-57-8",
-    "mer": "8",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "3333",
@@ -58440,30 +57915,6 @@
     "ImageOK": "VRAI"
   },
   {
-    "IDPlace": "3745",
-    "IDImage": "9-4-7",
-    "mer": "9",
-    "lat": "4",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "3746",
-    "IDImage": "9-4-8",
-    "mer": "9",
-    "lat": "4",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
     "IDPlace": "4062",
     "IDImage": "9-40-10",
     "mer": "9",
@@ -59734,30 +59185,6 @@
     "Slogan": "C'est bon d'\u00eatre libre",
     "Provenance": "Attribution4HDupasquier.xlsx",
     "ImageOK": "VRAI"
-  },
-  {
-    "IDPlace": "4159",
-    "IDImage": "9-57-7",
-    "mer": "9",
-    "lat": "57",
-    "lon": "7",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
-  },
-  {
-    "IDPlace": "4160",
-    "IDImage": "9-57-8",
-    "mer": "9",
-    "lat": "57",
-    "lon": "8",
-    "Pseudo": "",
-    "Droit": "",
-    "Slogan": "",
-    "Provenance": "",
-    "ImageOK": "0"
   },
   {
     "IDPlace": "3749",
